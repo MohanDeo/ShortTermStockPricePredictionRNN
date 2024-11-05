@@ -1,0 +1,7 @@
+data_path: 'data/processed/stock_prices.csv'
+data_params:
+  sequence_length: 60
+  train_split: 0.8
+
+tune_epochs: 50
+final_epochs: 100

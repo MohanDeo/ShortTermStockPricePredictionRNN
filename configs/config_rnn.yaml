@@ -1,0 +1,14 @@
+model: rnn
+epochs: 50
+batch_size: 32
+learning_rate: 0.001
+model_params:
+  num_layers: 3
+  units_per_layer: 64
+  dropout: 0.3
+  activation: 'relu'
+data_params:
+  sequence_length: 50
+  train_split: 0.8
+  scaling: 'standard'
+seed: 42

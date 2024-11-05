@@ -1,0 +1,14 @@
+model: lstm
+epochs: 50
+batch_size: 32
+learning_rate: 0.001
+model_params:
+  num_layers: 2
+  units_per_layer: 128
+  dropout: 0.2
+  activation: 'tanh'
+data_params:
+  sequence_length: 60
+  train_split: 0.8
+  scaling: 'minmax'
+seed: 42
